@@ -1,0 +1,28 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+input {
+  padding: 5px;
+  background-color: bisque;
+}
+textarea,
+option,
+select {
+  background-color: bisque;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+button {
+  width: 150px;
+  padding: 10px;
+  background-color: tan;
+}
