@@ -56,11 +56,11 @@ class Qeydiyyat extends Component {
   render() {
     return (
       <form>
-        <label for="">
+        <label htmlFor="">
           ad
           <input type="text" value={this.state.ad} onChange={this.addeyis} />
         </label>
-        <label for="">
+        <label htmlFor="">
           seriya nomresi
           <input
             type="text"
@@ -76,14 +76,14 @@ class Qeydiyyat extends Component {
             onChange={this.telefondeyis}
           />
         </label>
-        <label for="">
+        <label htmlFor="">
           Cinsiyyet
           <select name="" id="" onChange={this.cdeyis}>
             <option value="1">kisi</option>
             <option value="2">qadin</option>
           </select>
         </label>
-        <label for="">
+        <label htmlFor="">
           yas
           <input
             type="number"
@@ -91,7 +91,7 @@ class Qeydiyyat extends Component {
             onChange={this.yasdeyis}
           />
         </label>
-        <label for="">
+        <label htmlFor="">
           email
           <input
             type="email"
@@ -100,7 +100,7 @@ class Qeydiyyat extends Component {
           />
         </label>
 
-        <label for="">
+        <label htmlFor="">
           simptonlari
           <textarea
             value={this.state.qeyd}
@@ -108,7 +108,7 @@ class Qeydiyyat extends Component {
             onChange={this.qeyddeyis}
           ></textarea>
         </label>
-        <label for="">
+        <label htmlFor="">
           tekrar qebul
           <input
             type="checkbox"
